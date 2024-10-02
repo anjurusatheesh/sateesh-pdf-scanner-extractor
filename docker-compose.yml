@@ -2,11 +2,13 @@ version: '3.8'
 
 services:
   frontend:
+    image: node:18-alpine
     build:
       context: ./frontend
     ports:
       - "3000:3000"
   backend:
+    image: python:3.11-slim
     build:
       context: ./backend
     ports:
