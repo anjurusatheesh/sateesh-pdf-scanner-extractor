@@ -18,9 +18,9 @@ services:
       - "8000:8000"
     environment:
       MONGODB_URL: "mongodb://mongo:27017/mydatabase"
-      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
-      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
-      AWS_S3_BUCKET: "your-s3-bucket-name"
+      AWS_ACCESS_KEY_ID: ${AKIAQLSIVKBOUUOVN5NM}
+      AWS_SECRET_ACCESS_KEY: ${NW4cjcUQtnz1s8+kqXKO614mYZE81fJ3O30C2fYY}
+      AWS_S3_BUCKET: "satheesh-s3bucket"
     depends_on:
       - mongo
 
